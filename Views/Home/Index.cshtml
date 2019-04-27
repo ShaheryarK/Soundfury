@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="player horizontal">
+    <div class="container">
+        <div class="info-album-player">
+            <div class="album-cover" style="background: url('http://localhost:61756/images/demo/cover-player.jpg') no-repeat center" id="bg-image3"></div>
+            <p class="album-title">Faded</p>
+            <p class="artist-name">Album by Alan Walker</p>
+        </div>
+        <div class="player-content">
+            <audio preload></audio>
+            <ol class="playlist">
+                <li><a href="#" data-src="http://localhost:61756/mp3/01.mp3">faded</a></li>
+                <li><a href="#" data-src="http://localhost:61756/mp3/02.mp3">Spectre</a></li>
+                <li><a href="#" data-src="http://localhost:61756/mp3/03.mp3">Alone</a></li>
+                <li><a href="#" data-src="http://soundfury.tk:8000/stak.ogg">Test</a></li>
+            </ol>
+            <div class="nextprev">
+                <span class="prev">prev</span>
+                <span class="next">next</span>
+            </div>
+            <span class="btnloop">loop</span>
+        </div>
+    </div>
+</div>
+<!-- LATEST ALBUM -->
+<section class="section latest-album" id="anchor01">
+    <div class="container">
+        <div class="voffset70"></div>
+        <div class="title-wrapper">
+            <h2 class="title">Popular DJs</h2>
+        </div>
+        <div class="voffset80"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-album">
+                    <div class="cover">
+                        <img src="http://localhost:61756/images/demo/albums/cover.jpg" alt="">
+                    </div>
+                    <p class="album album-list">Asad's Channel</p>
+                    <p class="artist">Dj:M.Asad Janjua</p>
+                    <div class="voffset20"></div>
+                    <p class="description">Asad's makes exceptional mashups by mixing old and new songs </p>
+                    <ul class="links">
+                        <li><a href="#">itunes</a></li>
+                        <li><a href="#">spotify</a></li>
+                        <li><a href="#">beatport</a></li>
+                    </ul>
+                    <div class="voffset80"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="disc-tracklist">
+                    <audio preload id="playlist_newalbum"></audio>
+                    <ol class="playlist1">
+                        <li>
+                            <a href="#" data-src="http://soundfury.tk:8000/stak.ogg">
+                                <div class="track-info">
+                                    <p class="track-title">Stak's Channel</p>
+                                    <p class="track-album">DJ:STAK</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-src="http://soundfury.tk:8000/haris.ogg">
+                                <div class="track-info">
+                                    <p class="track-title">Haris's Channel</p>
+                                    <p class="track-album">DJ:Haris Khan</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-src="http://soundfury.tk:8000/usama.ogg">
+                                <div class="track-info">
+                                    <p class="track-title">Usama's Channel</p>
+                                    <p class="track-album">DJ:Usama Shafqat</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-src="http://soundfury.tk:8000/siddique.ogg">
+                                <div class="track-info">
+                                    <p class="track-title">SA's Channel</p>
+                                    <p class="track-album">DJ:M.Siddique Ali</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-src="http://soundfury.tk:8000/salman.ogg">
+                                <div class="track-info">
+                                    <p class="track-title">Salman's Channel</p>
+                                    <p class="track-album">Dj:Salman Khan</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
